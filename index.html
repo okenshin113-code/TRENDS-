@@ -300,5 +300,5 @@ tt=setInterval(()=>{if(!$("tw0")){tstop();return}const p=$("tw"+(n-1)),c=$("tw"+
 if(n>=w.length){clearInterval(tt);tt=null;if(tauto&&tp<TC[tl].length-1)setTimeout(()=>{if(tn)tgo(tp+1,true)},700);else{tn=0;$("tpb").textContent="🔁 Replay"}return}n++},d*1000/tm/w.length)}
 
 go("qk");
-if("serviceWorker" in navigator&&/^https?:/.test(location.protocol))addEventListener("load",()=>{try{navigator.serviceWorker.register("sw.js")}catch(e){}});
+if("serviceWorker" in navigator&&/^https?:/.test(location.protocol))addEventListener("load",()=>{try{navigator.serviceWorker.register("sw.js").then(()=>navigator.serviceWorker.ready).then(()=>{const d=document.createElement("div");d.textContent="✅ Ready to use offline";d.style.cssText="position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:#2f3a7a;color:#fff;padding:10px 16px;border-radius:20px;font:600 14px system-ui;z-index:99;transition:opacity .6s";document.body.appendChild(d);setTimeout(()=>d.style.opacity=0,3000);setTimeout(()=>d.remove(),3700)})}catch(e){}});
 </script></body></html>
