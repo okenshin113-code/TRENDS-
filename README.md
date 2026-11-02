@@ -12,4 +12,4 @@ Interactive reviewer: Teach me lessons, flashcards, quiz, games, quick review. W
 - Desktop Chrome/Edge: install icon in the address bar.
 It opens in its own window with its own icon, and works offline after the first visit.
 
-To update: replace `index.html`, then change `V="tnct-v2"` in `sw.js` to `tnct-v2` so phones refresh.
+To update: replace `index.html`, then change `V="tnct-v2"` in `sw.js` to `tnct-v3` so phones refresh.
